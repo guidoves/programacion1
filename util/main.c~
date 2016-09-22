@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "util.h"
+
+
+
+int main()
+{
+
+
+    switch(menu("1)Hola\n2)Como estas?\n3)Chau\n4)TODO BIEN?",1,4))
+    {
+        case 1:
+        printf("HOla");
+        break;
+        case 2:
+        printf("Como estas");
+        break;
+        case 3:
+        printf("Chau");
+        break;
+        case 4:
+        printf("todo bien");
+    }
+    return 0;
+}
