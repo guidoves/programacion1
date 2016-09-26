@@ -5,6 +5,15 @@
 #include <math.h>
 #include "util.h"
 
+void setArray(x array[],int largo,int valor)
+{
+	int i;
+	
+	for(i=0;i<largo;i++)
+	{
+		array[i]=valor;
+	}
+}
 
 
 
