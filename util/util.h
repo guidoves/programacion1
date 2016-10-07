@@ -13,5 +13,8 @@ int esSoloLetras(char str[]);
 int esTelefono(char str[]);
 int getValidInt(char requestMessage[],char errorMessage[], int lowLimit, int hiLimit);
 void cleanStdin(void);
+int getStringNumeros(char mensaje[],char input[]);
+void getString(char mensaje[],char input[]);
+int esNumerico(char str[]);
 
 
