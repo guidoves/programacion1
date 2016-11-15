@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1479169503 source:c:\users\alumno.lab4pc\desktop\projecto\projecto\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1463521274 c:\users\alumno.lab4pc\desktop\projecto\projecto\arraylist.h
+
+1479169591 source:c:\users\alumno.lab4pc\desktop\projecto\projecto\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+
+1479169080 c:\users\alumno.lab4pc\desktop\projecto\projecto\cliente.h
+
+1479170670 source:c:\users\alumno.lab4pc\desktop\projecto\projecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"cliente.h"
+
