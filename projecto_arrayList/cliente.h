@@ -8,6 +8,7 @@ typedef struct
    int dni;
    int flagEstado;
 }sCliente;
+
 #endif // CLIENTE_H_INCLUDED
 
 sCliente* cliente_new(void);
@@ -17,6 +18,8 @@ int cliente_getId(sCliente* this);
 int cliente_setName(sCliente* this, char* name);
 char* cliente_getName(sCliente* this);
 int cliente_setDni(sCliente* this,int* dni);
-int cliente_getDni(sCLiente* this);
+int cliente_getDni(sCliente* this);
+int cliente_setFlagEstado(sCliente* this,int* estado);
+int cliente_getFlagEstado(sCliente* this);
 
 

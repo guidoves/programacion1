@@ -20,3 +20,51 @@
 	"ArrayList.h"
 	"cliente.h"
 
+1479246933 source:/home/guido/programacion1/projecto_arrayList/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1479246933 /home/guido/programacion1/projecto_arrayList/ArrayList.h
+
+1479250147 source:/home/guido/programacion1/projecto_arrayList/cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+
+1479250147 /home/guido/programacion1/projecto_arrayList/cliente.h
+
+1479264655 source:/home/guido/programacion1/projecto_arrayList/controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"controller.h"
+	"vendedor.h"
+
+1479249493 /home/guido/programacion1/projecto_arrayList/controller.h
+	"cliente.h"
+
+1479349731 source:/home/guido/programacion1/projecto_arrayList/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"cliente.h"
+	"vendedor.h"
+
+1479246933 source:/home/guido/programacion1/projecto_arrayList/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1479246933 /home/guido/programacion1/projecto_arrayList/utn.h
+
+1479264782 /home/guido/programacion1/projecto_arrayList/vendedor.h
+
+1479264760 source:/home/guido/programacion1/projecto_arrayList/vendedor.c
+	<stdio.h>
+	<stdlib.h>
+	"vendedor.h"
+

@@ -87,12 +87,31 @@ int cliente_setDni(sCliente* this,int* dni)
     }
     return retorno;
 }
-int cliente_getDni(sCLiente* this)
+int cliente_getDni(sCliente* this)
 {
     int retorno = -1;
     if(this != NULL)
     {
         retorno = this->dni;
+    }
+    return retorno;
+}
+int cliente_setFlagEstado(sCliente* this,int* estado)
+{
+    int retorno = -1;
+    if(this != NULL)
+    {
+        this->flagEstado = estado;
+        retorno = 0;
+    }
+    return retorno;
+}
+int cliente_getFlagEstado(sCliente* this)
+{
+    int retorno = -1;
+    if(this != NULL)
+    {
+        retorno = this->flagEstado;
     }
     return retorno;
 }
