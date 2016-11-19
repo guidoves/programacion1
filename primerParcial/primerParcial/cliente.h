@@ -6,16 +6,19 @@ typedef struct
     char nombre[51];
     char apellido[51];
     int idCliente;
+    int flagEstado;
 }Cliente;
 #endif // CLIENTE_H_INCLUDED
 
 Cliente* cliente_new(void);
-void cliente_free(Cliente this);
+void cliente_free(Cliente* this);
 int cliente_setDni(Cliente *this, int *dni);
 int cliente_getDni(Cliente *this);
 int cliente_setNombre(Cliente *this, char *nombre);
 char* cliente_getNombre(Cliente *this);
 int cliente_setApellido(Cliente *this, char *apellido);
 char* cliente_getApellido(Cliente *this);
-int cliente_setIdCliente(Cliente *this, int *id);
+int cliente_setIdCliente(Cliente *this, int id);
 int cliente_getIdCliente(Cliente *this);
+int cliente_setFlagEstado(Cliente *this, int estado);
+int cliente_getFlagEstado(Cliente *this);

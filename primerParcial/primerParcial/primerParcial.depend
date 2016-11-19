@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1479510850 source:c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\alquiler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquiler.h"
+
+1479510850 c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\alquiler.h
+
+1479516421 source:c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1479516454 c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\cliente.h
+
+1479516332 source:c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"controller.h"
+	"utn.h"
+	"cliente.h"
+
+1479514251 c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\controller.h
+	"ArrayList.h"
+
+1479518271 c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\utn.h
+
+1479516902 source:c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"cliente.h"
+	"alquiler.h"
+
+1479518271 c:\users\alumno\desktop\nueva carpeta\asd\primerparcial\primerparcial\arraylist.h
+

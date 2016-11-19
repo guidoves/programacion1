@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="ArrayList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArrayList.h" />
 		<Unit filename="alquiler.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -39,9 +43,17 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="cliente.h" />
+		<Unit filename="controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="controller.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="utn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utn.h" />
 		<Extensions>
 			<envvars />
 			<code_completion />

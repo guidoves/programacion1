@@ -3,7 +3,7 @@
 #include <string.h>
 #include "alquiler.h"
 
-Alquiler* cliente_new(void)
+Alquiler* alquiler_new(void)
 {
     Alquiler* retorno = NULL;
     retorno = malloc(sizeof(Alquiler));
@@ -77,3 +77,25 @@ int alquiler_getEstado(Alquiler *this)
     }
     return retorno;
 }
+
+int alquiler_setFlagEstado(Alquiler *this, int *estado)
+{
+    int retorno = -1;
+    if(this != NULL)
+    {
+        this->flagEstado = estado;
+        retorno = 0;
+    }
+    return retorno;
+}
+
+int alquiler_getFlagEstado(Alquiler *this)
+{
+    int retorno = -1;
+    if(this != NULL)
+    {
+        retorno = this->flagEstado;
+    }
+    return retorno;
+}
+

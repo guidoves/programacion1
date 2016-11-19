@@ -10,7 +10,7 @@ Cliente* cliente_new(void)
     return retorno;
 }
 
-void cliente_free(Cliente this)
+void cliente_free(Cliente* this)
 {
     free(this);
 }
@@ -49,7 +49,7 @@ int cliente_setNombre(Cliente *this, char *nombre)
 
 char* cliente_getNombre(Cliente *this)
 {
-    char *retorno = NULL
+    char *retorno = NULL;
     if(this != NULL)
     {
         retorno = this->nombre;
@@ -77,7 +77,7 @@ char* cliente_getApellido(Cliente *this)
     }
     return retorno;
 }
-int cliente_setIdCliente(Cliente *this, int *id)
+int cliente_setIdCliente(Cliente *this, int id)
 {
     int retorno = -1;
     if(this != NULL && id > 0)
@@ -97,3 +97,25 @@ int cliente_getIdCliente(Cliente *this)
     }
     return retorno;
 }
+
+int cliente_setFlagEstado(Cliente *this, int estado)
+{
+    int retorno = -1;
+    if(this != NULL)
+    {
+        this->flagEstado = estado;
+        retorno = 0;
+    }
+    return retorno;
+}
+
+int cliente_getFlagEstado(Cliente *this)
+{
+    int retorno = -1;
+    if(this != NULL)
+    {
+        retorno = this->flagEstado;
+    }
+    return retorno;
+}
+
