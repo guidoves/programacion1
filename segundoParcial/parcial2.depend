@@ -1,0 +1,156 @@
+# depslib dependency file v1.0
+1480109891 source:c:\users\alumno\desktop\parcial2\parcial2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1480109891 .h"
+
+1480109891 c:\users\alumno\desktop\parcial2\parcial2\arraylist.h
+
+1480122235 source:c:\users\alumno\desktop\parcial2\parcial2\controller.c
+	"controller.h"
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"urgente.h"
+	"regular.h"
+	"uEntregado.h"
+	"rEntregado.h"
+	"utn.h"
+
+1480122046 o.h"
+
+1480122046 c:\users\alumno\desktop\parcial2\parcial2\controller.h
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"urgente.h"
+	"regular.h"
+	"uEntregado.h"
+	"rEntregado.h"
+	"utn.h"
+
+1480113220 c:\users\alumno\desktop\parcial2\parcial2\urgente.h
+
+1480113220 c:\users\alumno\desktop\parcial2\parcial2\regular.h
+
+1480113220 c:\users\alumno\desktop\parcial2\parcial2\uentregado.h
+
+1480113220 c:\users\alumno\desktop\parcial2\parcial2\rentregado.h
+
+1480109891 c:\users\alumno\desktop\parcial2\parcial2\utn.h
+
+1480121662 source:c:\users\alumno\desktop\parcial2\parcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"urgente.h"
+	"regular.h"
+	"uEntregado.h"
+	"rEntregado.h"
+	"utn.h"
+	"numeros.h"
+	"controller.h"
+
+1480121662 r.h"
+
+1480119004 source:c:\users\alumno\desktop\parcial2\parcial2\numeros.c
+	"numeros.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1480109891 
+
+1480114257 source:c:\users\alumno\desktop\parcial2\parcial2\regular.c
+	"regular.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1480114300 source:c:\users\alumno\desktop\parcial2\parcial2\rentregado.c
+	"rEntregado.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1480114308 source:c:\users\alumno\desktop\parcial2\parcial2\uentregado.c
+	"uEntregado.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1480114316 source:c:\users\alumno\desktop\parcial2\parcial2\urgente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"urgente.h"
+
+1480114316 "
+
+1480109891 source:c:\users\alumno\desktop\parcial2\parcial2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<math.h>
+	"utn.h"
+
+1480118342 c:\users\alumno\desktop\parcial2\parcial2\numeros.h
+
+1480099092 source:/home/guido/Escritorio/parcial2/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1480099092 /home/guido/Escritorio/parcial2/ArrayList.h
+
+1480186089 source:/home/guido/Escritorio/parcial2/entrega.c
+	"entrega.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1480190584 /home/guido/Escritorio/parcial2/entrega.h
+
+1480199244 source:/home/guido/Escritorio/parcial2/controller.c
+	"controller.h"
+
+1480199244 /home/guido/Escritorio/parcial2/controller.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"entrega.h"
+	"utn.h"
+
+1480099092 /home/guido/Escritorio/parcial2/utn.h
+
+1480199322 source:/home/guido/Escritorio/parcial2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"entrega.h"
+	"utn.h"
+	"numeros.h"
+	"controller.h"
+
+1480190584 /home/guido/Escritorio/parcial2/numeros.h
+
+1480108206 source:/home/guido/Escritorio/parcial2/numeros.c
+	"numeros.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1480099092 source:/home/guido/Escritorio/parcial2/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<math.h>
+	"utn.h"
+
