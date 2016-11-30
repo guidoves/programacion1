@@ -13,7 +13,8 @@ int main()
         \n3-PROXIMA ENTREGA\
         \n4-LISTAR\
         \n5-INFORMAR\
-        \n6-SALIR\
+        \n6-PRUEBA\
+        \n7-SALIR\
         \nIngrese opcion: ";
     char menuError[] = "\n ERROR.\n";
     int opcion = 0,flagUno,flagDos;
@@ -31,7 +32,6 @@ int main()
     pArrayNumeros = al_newArrayList();
 
     eEntrega* auxEntrega;
-    eNumeros* auxNumeros;
 
 
     do{
@@ -41,21 +41,13 @@ int main()
         switch(opcion)
         {
             case 1:
-                auxNumeros = numeros_new();
-                numeros_setNumero(auxNumeros,pArrayNumeros->size+1);
-                al_add(pArrayNumeros,auxNumeros);
-
                 auxEntrega = entrega_new();
-                controller_altaEntrega(auxEntrega,numeros_getNumero(auxNumeros));
+                controller_altaEntrega(auxEntrega,controller_otorgarNumero(pArrayNumeros));
                 al_add(pArrayUrgente,auxEntrega);
                 break;
             case 2:
-                auxNumeros = numeros_new();
-                numeros_setNumero(auxNumeros,pArrayNumeros->size+1);
-                al_add(pArrayNumeros,auxNumeros);
-
                 auxEntrega = entrega_new();
-                controller_altaEntrega(auxEntrega,numeros_getNumero(auxNumeros));
+                controller_altaEntrega(auxEntrega,controller_otorgarNumero(pArrayNumeros));
                 al_add(pArrayRegular,auxEntrega);
                 break;
             case 3:
@@ -70,7 +62,7 @@ int main()
                     al_add(pArrayREntregado,auxEntrega);
                     if(auxEntrega == NULL)
                     {
-                        printf("No hay entregas para realizar.\n");
+                        printf("No hay entregas para realizar.\a\n");
                     }
                 }
                 pause();
@@ -99,13 +91,16 @@ int main()
                 pause();
                 break;
             case 6:
-                //SALIR
+                //verArchivo();
+                controller_guardarArchivo(pArrayRegular,"regulares.dat");
                 break;
+            case 7:
+                //SALIR
             default:
                 printf("\nNO ES UNA OPCION VALIDA!!!\n\n");
                 pause();
                 break;
         }
-    }while(opcion != 6);
+    }while(opcion != 7);
     return 0;
 }

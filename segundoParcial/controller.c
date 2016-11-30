@@ -75,3 +75,93 @@ int controller_listar(ArrayList *pArrayEntregas,char* texto)
     return retorno;
 }
 
+int controller_otorgarNumero(ArrayList *pArrayNumeros)
+{
+    int retorno = -1;
+    eNumeros *auxNum;
+    if(pArrayNumeros != NULL)
+    {
+        auxNum = numeros_new();
+        numeros_setNumero(auxNum,pArrayNumeros->size+1);
+        al_add(pArrayNumeros,auxNum);
+        retorno = numeros_getNumero(auxNum);
+    }
+    return retorno;
+}
+
+//int controller_cargarArchivo(ArrayList* pArrayList, char* path)
+//{
+//    int retorno = -1,i;
+//    FILE* pFile;
+//    eEntrega* aux;
+//    int numDespacho;
+//    char direccion[51];
+//    int altura;
+//
+//    if(pArrayList != NULL)
+//    {
+//        pFile = fopen(path,"r");
+//        for(i=0;i<al_len(pArrayList);i++)
+//        {
+//
+//            aux = al_get(pArrayList,i);
+//            numDespacho = entrega_getNumDespacho(aux);
+//            altura = entrega_getAltura(aux);
+//            strcpy(direccion,entrega_getDireccion(aux));
+//
+//            fprintf(pFile,"%d",numDespacho);
+//            fprintf(pFile,"%d",altura);
+//            fprintf(pFile,"%s",direccion);
+//
+//
+//        }
+//        fclose(pFile);
+//        retorno = 0;
+//    }
+//    return retorno;
+//
+//}
+
+int controller_guardarArchivo(ArrayList *pArrayList,char* path)
+{
+    int retorno = -1,i;
+    FILE* pFile;
+    eEntrega* aux;
+    int numDespacho;
+    char direccion[51];
+    int altura;
+
+    if(pArrayList != NULL)
+    {
+        pFile = fopen(path,"w");
+        for(i=0;i<al_len(pArrayList);i++)
+        {
+
+            aux = al_get(pArrayList,i);
+            numDespacho = entrega_getNumDespacho(aux);
+            altura = entrega_getAltura(aux);
+            strcpy(direccion,entrega_getDireccion(aux));
+
+            fprintf(pFile,"%d",numDespacho);
+            fprintf(pFile,"%s",",");
+            fprintf(pFile,"%d",altura);
+            fprintf(pFile,"%s",",");
+            fprintf(pFile,"%s",direccion);
+            fprintf(pFile,"%s","\n");
+        }
+        fclose(pFile);
+        retorno = 0;
+    }
+    return retorno;
+}
+
+//int verArchivo(void)
+//{
+//    FILE *pfile;
+//    char buffer[100];
+//    pfile = fopen("texto.txt","r");
+//    fread(buffer,char,100,pfile);
+//    printf("%s",buffer);
+//    fclose(pfile);
+//}
+

@@ -154,3 +154,58 @@
 	<math.h>
 	"utn.h"
 
+1480099092 source:/home/guido/Escritorio/segundoParcial/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1480099092 /home/guido/Escritorio/segundoParcial/ArrayList.h
+
+1480186089 source:/home/guido/Escritorio/segundoParcial/entrega.c
+	"entrega.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1480190584 /home/guido/Escritorio/segundoParcial/entrega.h
+
+1480108206 source:/home/guido/Escritorio/segundoParcial/numeros.c
+	"numeros.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1480190584 /home/guido/Escritorio/segundoParcial/numeros.h
+
+1480099092 source:/home/guido/Escritorio/segundoParcial/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<math.h>
+	"utn.h"
+
+1480099092 /home/guido/Escritorio/segundoParcial/utn.h
+
+1480388112 source:/home/guido/Escritorio/segundoParcial/controller.c
+	"controller.h"
+
+1480387487 /home/guido/Escritorio/segundoParcial/controller.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"entrega.h"
+	"utn.h"
+	"numeros.h"
+
+1480387485 source:/home/guido/Escritorio/segundoParcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"entrega.h"
+	"utn.h"
+	"numeros.h"
+	"controller.h"
+
