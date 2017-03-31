@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1488086197 source:/home/guido/Escritorio/ejercitacion/Final/final/Client.c
+	"Client.h"
+
+1488086254 /home/guido/Escritorio/ejercitacion/Final/final/Client.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1479246933 source:/home/guido/Escritorio/ejercitacion/Final/final/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1479246933 /home/guido/Escritorio/ejercitacion/Final/final/ArrayList.h
+
+1488304809 source:/home/guido/Escritorio/ejercitacion/Final/final/Controller.c
+	"Controller.h"
+
+1488295828 /home/guido/Escritorio/ejercitacion/Final/final/Controller.h
+	"Client.h"
+	"ArrayList.h"
+	"utn.h"
+
+1488084923 /home/guido/Escritorio/ejercitacion/Final/final/utn.h
+	<ctype.h>
+
+1488296643 source:/home/guido/Escritorio/ejercitacion/Final/final/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Controller.h"
+
+1488084980 source:/home/guido/Escritorio/ejercitacion/Final/final/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<math.h>
+	"utn.h"
+

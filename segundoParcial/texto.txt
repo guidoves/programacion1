@@ -1,0 +1,1 @@
+La función fputs escribe una cadena en un fichero. la ejecución de la misma no añade el carácter de retorno de línea ni el carácter nulo final. El valor de retorno es un número no negativo o EOF en caso de error. Los parámetros de entrada son la cadena a escribir y un puntero a la estructura FILE del fichero donde se realizará la escritura.

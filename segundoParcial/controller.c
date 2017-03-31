@@ -47,7 +47,7 @@ eEntrega* controller_proximaEntrega(ArrayList *pArrayEntregas)
             pEntrega = al_pop(pArrayEntregas,i);
             if(pEntrega != NULL)
             {
-                printf("Proxima entrega:\nNumero de despacho %d\nDireccion %s %d\n",pEntrega->numDespacho,pEntrega->direccion,pEntrega->altura);
+                printf("Proxima entrega:\nNumero de despacho %d\nDireccion %s %d\n",entrega_getNumDespacho(pEntrega),entrega_getDireccion(pEntrega),entrega_getAltura(pEntrega));
                 break;
             }
         }
